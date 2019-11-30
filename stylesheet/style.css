@@ -181,6 +181,9 @@ h2, p{
 }
 
 /* Sources */
+.sources {
+    margin: 12px;
+}
 .sources ul {
     flex-direction: column;
 }
