@@ -236,3 +236,6 @@ h2, p{
         /* Må gjøres responsive */
     }
 }
+
+@media only screen and (max-width: 1024px) {.prototype1{width:90%;}  }
+@media only screen and (max-width: 760px) {.prototype1 p, h1{float:left;}  }
