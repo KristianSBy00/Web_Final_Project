@@ -68,12 +68,32 @@ h2, p{
 }
 
 /* Home */
+.home-top {
+    text-align: center;
+    /* border: solid gray 4px; */
+    padding: 8px;
+}
+.home-logo {
+    max-height: 150px;
+}
+
 .home-text {
     text-align: center;
     width: 30%;
     margin: 12px;
     padding: 4px;
     border: solid gray 4px;
+}
+
+.home-link {
+    background-color: #da8053;
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    border: solid gray 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
 }
 /* Problem */
 .problem-header {
@@ -92,13 +112,11 @@ h2, p{
     font-weight: bold;
 }
 .problem-person {
-    width: 30%;
     text-align: center;
+    width: 35%;
     margin: 8px;
-    padding: 8px;
-    border-radius: 4px 4px;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    border: 4px grey solid;
 }
 .problem-person img {
     width: 100%;
@@ -115,7 +133,6 @@ h2, p{
 }
 
 .problem-img {
-    margin-top: 15%;
     max-height: 350px;
     max-width: 250px;
 }
@@ -145,7 +162,7 @@ h2, p{
     width: 35%;
     margin: 8px;
     padding: 24px;
-    border: 2px grey solid;
+    border: 4px grey solid;
 }
 .solution-img {
     padding-left: 25%;
@@ -154,21 +171,17 @@ h2, p{
     height: auto;
 }
 
-.solution-head-img{
-    max-height: 300px;
-    width: 100%;
-    border-bottom: 2px grey solid;
-    border-top: 2px grey solid;
-}
-
 /* Prototype */
 .prototype-header {
     text-align: center;
     padding: 12px;
-    border: 2px solid black;
+    border: 4px solid black;
     border-radius: 10px;
     margin-top: 20px;
     
+}
+.prototype-section {
+    margin: 32px 0;
 }
 .prototype-header h2 {
     font-size: 2em;
@@ -179,6 +192,9 @@ h2, p{
 }
 .prototype-img {
     max-height: 400px;
+    /* offset-x | offset-y | blur-radius | Spread radius| color */
+    box-shadow: 0px 0px 24px 4px rgba(0, 0, 0, 0.1);
+    
 }
 
 /* Sources */
