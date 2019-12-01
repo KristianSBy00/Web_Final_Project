@@ -68,12 +68,32 @@ h2, p{
 }
 
 /* Home */
+.home-top {
+    text-align: center;
+    /* border: solid gray 4px; */
+    padding: 8px;
+}
+.home-logo {
+    max-height: 150px;
+}
+
 .home-text {
     text-align: center;
     width: 30%;
     margin: 12px;
     padding: 4px;
     border: solid gray 4px;
+}
+
+.home-link {
+    background-color: #da8053;
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    border: solid gray 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
 }
 /* Problem */
 .problem-header {
