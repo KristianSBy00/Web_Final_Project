@@ -13,7 +13,12 @@ header {
     background-image: white;
     box-shadow: 1px 1px 5px gray;
 }
-
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.5em;
+}
 .logo {
     max-height: 72px;
 }
@@ -122,7 +127,6 @@ padding-left: 5%; padding-right: 5%;
 .solution-header {
     text-align: center;
     margin: 32px;
-    font-size: 2em;
 }
 .solution-text {
     width: 35%;
@@ -151,6 +155,10 @@ padding-left: 5%; padding-right: 5%;
     border: 2px solid black;
     border-radius: 10px;
     margin-top: 20px;
+    
+}
+.prototype-header h2 {
+    font-size: 2em;
 }
 .prototype-text {
     width: 35%;
