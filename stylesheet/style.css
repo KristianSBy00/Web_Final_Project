@@ -66,6 +66,12 @@ h2, p{
     margin-bottom: 0.5em;
     line-height: 1.5em;
 }
+.divider {
+    background-color: #a5603f;
+    margin: auto auto;
+    width: 50%;
+    height: 0.3em;
+}
 
 /* Home */
 .home-top {
@@ -194,7 +200,7 @@ h2, p{
     max-height: 400px;
     /* offset-x | offset-y | blur-radius | Spread radius| color */
     box-shadow: 0px 0px 24px 4px rgba(0, 0, 0, 0.1);
-    
+    margin-bottom: 24px;
 }
 
 /* Sources */
