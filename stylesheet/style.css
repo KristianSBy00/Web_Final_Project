@@ -71,10 +71,10 @@ h2, p{
     border: solid gray 4px;
 }
 /* Problem */
-
-.big-picture {
-    max-height: 300px;
-    width: 100%;
+.problem-header {
+    text-align: center;
+    margin: 32px;
+    font-size: 2em;
 }
 .problem-text {
     width: 35%;
@@ -109,6 +109,7 @@ h2, p{
 }
 
 .problem-img {
+    margin-top: 15%;
     max-height: 350px;
     max-width: 250px;
 }
