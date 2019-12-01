@@ -118,11 +118,21 @@ h2, p{
 .solution-text {
     width: 35%;
     margin: 8px;
+    padding: 4px;
+    border: 2px grey solid;
 }
 .solution-img {
-    max-width: 250px;
-    max-height: 150px;
-    
+    padding-left: 25%;
+    padding-right: 25%;
+    max-width: 50%;
+    height: auto;
+}
+
+.solution-head-img{
+    max-height: 300px;
+    width: 100%;
+    border-bottom: 2px grey solid;
+    border-top: 2px grey solid;
 }
 
 /* Prototype */
