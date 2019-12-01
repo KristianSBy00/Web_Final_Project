@@ -94,6 +94,9 @@ h2, p{
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
 }
+.problem-person img {
+    width: 100%;
+}
 .problem-solution {
     width: 35%;
     padding: 8px;
