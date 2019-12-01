@@ -121,9 +121,11 @@ h2, p{
 
 
 /* Solution */
-/* .solution-padding {
-padding-left: 5%; padding-right: 5%;
-} */
+.solution-padding {
+    padding-left: 5%;  
+    padding-right: 5%;
+    width: 90%;
+} 
 .solution-header {
     text-align: center;
     margin: 32px;
@@ -225,6 +227,12 @@ padding-left: 5%; padding-right: 5%;
         /* flex-direction: column;
         margin: 20px; */
         /* Må gjøres responsive */
+    }
+    
+    .solution-img {
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 90%;
     }
 }
 
