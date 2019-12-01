@@ -13,7 +13,12 @@ header {
     background-image: white;
     box-shadow: 1px 1px 5px gray;
 }
-
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.5em;
+}
 .logo {
     max-height: 72px;
 }
@@ -81,7 +86,8 @@ h2, p{
     margin: 8px;
 }
 .problem-question {
-    padding: 4px;
+    width: 90%;
+    padding: 8px;
     border: solid gray 2px;
     font-weight: bold;
 }
@@ -116,13 +122,14 @@ h2, p{
 
 
 /* Solution */
-/* .solution-padding {
-padding-left: 5%; padding-right: 5%;
-} */
+.solution-padding {
+    padding-left: 5%;  
+    padding-right: 5%;
+    width: 90%;
+} 
 .solution-header {
     text-align: center;
     margin: 32px;
-    font-size: 2em;
 }
 .solution-text {
     width: 35%;
@@ -151,6 +158,10 @@ padding-left: 5%; padding-right: 5%;
     border: 2px solid black;
     border-radius: 10px;
     margin-top: 20px;
+    
+}
+.prototype-header h2 {
+    font-size: 2em;
 }
 .prototype-text {
     width: 35%;
@@ -175,26 +186,29 @@ padding-left: 5%; padding-right: 5%;
     }
     .nav-mobile {
         display: flex;
+        width: 100%;
+        justify-content: center;
     }
     header {
         flex-direction: column;
-        
     }
     .nav-mobile ul {
         list-style-type: none;
         padding: 0;
+        width: 100%;
         text-align: center;
     }
     .nav-mobile a {
+        display: inline-block;
         text-decoration: none;
         font-size: 25px;
         color: black;
+        width:100%;
     }
-    .nav-mobile a:hover {
+    .nav-mobile li:hover {
         background-color: darkgray;
     }
-    .nav-mobile .active {
-        /* en type styling her ?*/
+    .nav-mobile li .active {
         background-color: gray;
     }
     section {
@@ -215,7 +229,11 @@ padding-left: 5%; padding-right: 5%;
         margin: 20px; */
         /* Må gjøres responsive */
     }
+    
+    .solution-img {
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 90%;
+    }
 }
 
-@media only screen and (max-width: 1024px) {.prototype1{width:90%;}  }
-@media only screen and (max-width: 760px) {.prototype1 p, h1{float:left;}  }
