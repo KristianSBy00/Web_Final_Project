@@ -129,10 +129,18 @@ h2, p{
 } 
 .solution-header {
     width: 100%;
-    max-height: 400px;
-
+    height: 75%;
 }
-
+.solution-header-section{
+    margin: 0px;
+    background-image: url("../../imgs/general-header-gradient-2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vw;
+    max-width: 100%;
+    background-color: white;  
+    margin-bottom: -7.5%;
+}
 .solution-text {
     width: 35%;
     margin: 8px;
@@ -237,5 +245,14 @@ h2, p{
     padding-right: 5%;
     max-width: 90%;
     }
+    .solution-header {
+        width: 100%;
+        max-height: 300px;
+        height: 125%;
+    }
+    .solution-header-image{
+        margin-bottom: 10%;
+    }
+
 }
 
