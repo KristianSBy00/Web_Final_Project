@@ -146,13 +146,6 @@ h2, p{
     height: auto;
 }
 
-.solution-head-img{
-    max-height: 300px;
-    width: 100%;
-    border-bottom: 2px grey solid;
-    border-top: 2px grey solid;
-}
-
 /* Prototype */
 .prototype-header {
     text-align: center;
