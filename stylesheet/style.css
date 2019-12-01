@@ -91,8 +91,8 @@ h2, p{
     margin: 8px;
     padding: 8px;
     border-radius: 4px 4px;
-        /* offset-x | offset-y | blur-radius | spread-radius | color */
-        box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
 }
 .problem-solution {
     width: 35%;
@@ -123,59 +123,19 @@ h2, p{
 }
 
 /* Prototype */
-.contentPrototype{
-    width:90%;
-    flex-direction: column;
-    margin:auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.prototypeHeader{
+.prototype-header {
+    text-align: center;
+    padding: 12px;
     border: 2px solid black;
     border-radius: 10px;
     margin-top: 20px;
 }
-
-.prototypeHeader h1{
-    font-size: 2.5em;
-    text-align:center;
-    margin: 20px 40px;
+.prototype-text {
+    width: 35%;
+    margin: 0 32px;
 }
-
-.prototypeHeader p{
-    font-size: 1.5em;
-    text-align:center;
-    line-height: 1.5em;
-    margin: 30px auto;
-    width:60%;
-}
-
-.prototypeHeader img{
-    width:200px;
-    float:left;
-    margin-top:-50px;
-}
-
-.prototypeContent{
-    display:flex;
-    flex-wrap:wrap;
-}
-
-.prototype1{
-    width:70%;
-    margin: 50px auto;
-}
-
-.prototype1 img{
-    width:300px;
-    float:left;
-    margin-right:10%;
-}
-
-.prototype1 p{
-    line-height: 30px;
-    font-size: 20px;
+.prototype-img {
+    max-height: 400px;
 }
 
 /* Sources */
@@ -186,7 +146,7 @@ h2, p{
     flex-direction: column;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
     .nav-desktop {
         display: none;
         
