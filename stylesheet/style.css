@@ -81,7 +81,8 @@ h2, p{
     margin: 8px;
 }
 .problem-question {
-    padding: 4px;
+    width: 90%;
+    padding: 8px;
     border: solid gray 2px;
     font-weight: bold;
 }
@@ -174,26 +175,29 @@ padding-left: 5%; padding-right: 5%;
     }
     .nav-mobile {
         display: flex;
+        width: 100%;
+        justify-content: center;
     }
     header {
         flex-direction: column;
-        
     }
     .nav-mobile ul {
         list-style-type: none;
         padding: 0;
+        width: 100%;
         text-align: center;
     }
     .nav-mobile a {
+        display: inline-block;
         text-decoration: none;
         font-size: 25px;
         color: black;
+        width:100%;
     }
-    .nav-mobile a:hover {
+    .nav-mobile li:hover {
         background-color: darkgray;
     }
-    .nav-mobile .active {
-        /* en type styling her ?*/
+    .nav-mobile li .active {
         background-color: gray;
     }
     section {
@@ -216,5 +220,3 @@ padding-left: 5%; padding-right: 5%;
     }
 }
 
-@media only screen and (max-width: 1024px) {.prototype1{width:90%;}  }
-@media only screen and (max-width: 760px) {.prototype1 p, h1{float:left;}  }
